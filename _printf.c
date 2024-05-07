@@ -65,14 +65,3 @@ int _printf(const char *format, ...)
 
 	return (car);
 }
-
-
-
-int main()
-{
-	_printf("ziad\n");
-	_printf("%c\n", 'z');
-	_printf("%s\n", "mena");
-	_printf("%%\n");
-	return (0);
-}
