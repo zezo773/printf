@@ -41,7 +41,7 @@ Own Printf Function Tha Performs Formatted Output Conversion And Print Data.
 Header File Were All Prototypes Are Saved.
 
 ------------
-### print_chr.c
+### print_char.c
 Function That Writes The Character C To Stdout.
 ```c
 /* Indetifier : %c */
@@ -49,7 +49,7 @@ Function That Writes The Character C To Stdout.
 
 ------------
 
-### print_str.c
+### print_string.c
 Function That Writes The String To Stdout.
 ```c
 /* Indetifier : %s */
@@ -62,6 +62,14 @@ Function That Prints An Integer.
 ```c
 /* Indetifier : %i or %d */
 ```
+------------
+
+print_percent.c
+Handel the '%'
+```c
+/* Indetifier : % */
+```
+
 
 ------------
 ### End
